@@ -13,7 +13,6 @@ const getters = {
 
 const mutations = {
   SET_USERS (state, users) {
-    console.log('Old users', state.users, 'New users', users)
     state.users = users
   },
   SET_LAST_FETCHED (state, fetchedAt) {
