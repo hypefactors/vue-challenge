@@ -20,21 +20,21 @@ describe('components', () => {
     })
   })
 
-  it('should fetch users', async () => {
-    const wrapper = createWrapper()
+  // it('should fetch users', () => {
+  //   const wrapper = createWrapper()
 
-    expect(wrapper.findAll('.UsersListItem')).toHaveLength(0)
-    wrapper.find('.mdl-button').trigger('click')
-    // what next?
-  })
+  //   expect(wrapper.findAll('.UsersListItem')).toHaveLength(0)
+  //   wrapper.find('.mdl-button').trigger('click')
+  //   // what next?
+  // })
 
-  it('should only fetch once', () => {
-    const wrapper = createWrapper()
+  // it('should only fetch once', () => {
+  //   const wrapper = createWrapper()
 
-    expect(wrapper.findAll('.UsersListItem')).toHaveLength(0)
-    wrapper.find('.mdl-button').trigger('click')
-    // what next?
-  })
+  //   expect(wrapper.findAll('.UsersListItem')).toHaveLength(0)
+  //   wrapper.find('.mdl-button').trigger('click')
+  //   // what next?
+  // })
 
   it('other?', () => {
 
